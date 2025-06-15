@@ -12,4 +12,8 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
  */
 contract VirToken is ERC20, Ownable {
     constructor() ERC20("VirToken", "VIR") Ownable(msg.sender) {}
+
+    function mint(address account, uint256 amount) external onlyOwner {
+        _mint(account, amount);
+    }
 }
