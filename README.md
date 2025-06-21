@@ -218,7 +218,8 @@ Key features:
 - Prevention of double-claiming
 - Multi-network compatibility (Ethereum, zkSync)
 
-🔗 Dependencies
+## 🔗 Dependencies
+
 This project uses the following libraries:
 
 ```bash
@@ -228,7 +229,8 @@ forge install dmfxyz/murky --no-commit
 forge install cyfrin/foundry-devops --no-commit
 ```
 
-🌐 Example Deployed Contracts
+## 🌐 Example Deployed Contracts
+
 **Sepolia Testnet:**
 
 - VIR Coin: 0x[contract_address]
@@ -239,7 +241,7 @@ forge install cyfrin/foundry-devops --no-commit
 - VIR Coin: 0x[contract_address]
 - Merkle Airdrop: 0x[contract_address]
 
-🛡️ Security Notes
+## 🛡️ Security Notes
 
 - Use test funds only on testnets - never real funds for development
 - Always verify contract addresses before any interactions
@@ -248,7 +250,8 @@ forge install cyfrin/foundry-devops --no-commit
 - Test thoroughly before considering mainnet deployment
 - Keep private keys secure and never commit them to version control
 
-📚 Learning Objectives
+## 📚 Learning Objectives
+
 This project demonstrates:
 
 - **Airdrop Mechanisms**: Understanding Merkle tree-based distribution
@@ -257,12 +260,16 @@ This project demonstrates:
 - **Testing Strategies**: Comprehensive test suite development
 - **Multi-Network Deployment**: Ethereum and zkSync compatibility
 
-📜 License
+## 📜 License
+
 This project is created for educational purposes and is free to use for further development.
 
-💙 Thank You!
+## 💙 Thank You!
+
 If you find this project helpful, don't forget to ⭐ the repository on GitHub!
 
 Made with 💖 by Virgi
+
+---
 
 **Note**: This is an educational project based on the Cyfrin Foundry Solidity Course. Focus on learning the core concepts of DeFi, airdrop distribution mechanisms and signature verification in smart contracts using ECDSA signatures.
